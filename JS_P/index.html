@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hussain MHK | Nature in Motion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="weatherCanvas"></canvas>
+  <div id="snowLayer"></div>
+
+  <header class="navbar">
+    <a class="logo" href="#home">HUSSAIN<span>.</span></a>
+
+    <nav id="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="controls">
+      <button id="weatherBtn" aria-label="Change weather">🌸</button>
+      <button id="themeBtn" aria-label="Toggle day and night">🌙</button>
+      <button id="menuBtn" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-text reveal">
+        <span class="eyebrow">COMPUTER SCIENCE • DEVELOPER • CREATOR</span>
+        <h1>Mohammad<br>Hussain <span>Khan</span></h1>
+        <p>
+          Hey, I'm <strong>Hussain MHK</strong>, a Computer Science
+          and Engineering student who loves building software,
+          exploring AI, experimenting with technology and
+          creating meaningful projects.
+        </p>
+
+        <div class="actions">
+          <a class="button primary" href="#projects">Explore My Work ↗</a>
+          <a class="button secondary"
+             href="https://github.com/HussainMHK47/JAVA_SCRIPT_PRO"
+             target="_blank" rel="noreferrer">My GitHub ↗</a>
+        </div>
+
+        <div class="quick-stats">
+          <div><strong>AI</strong><small>Intelligent Systems</small></div>
+          <div><strong>Web</strong><small>Creative Experiences</small></div>
+          <div><strong>Build</strong><small>Learn by Doing</small></div>
+        </div>
+      </div>
+
+      <div class="hero-art reveal">
+        <div class="orbit"></div>
+        <div class="portrait">
+          <img src="./imj.jpeg" alt="Hussain MHK"
+               onerror="this.style.display='none'">
+          <div class="portrait-fallback">
+            <span>H</span>
+            <p>Add your portrait to assets/profile.jpg</p>
+          </div>
+        </div>
+        <div class="floating-card card-one">🌿 Curious mind</div>
+        <div class="floating-card card-two">🌧️ Ideas in motion</div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading reveal">
+        <span>01 / ABOUT ME</span>
+        <h2>Rooted in curiosity.<br><em>Growing through creation.</em></h2>
+      </div>
+
+      <div class="three-grid">
+        <article class="glass-card reveal">
+          <div class="emoji">🌱</div>
+          <h3>Who I Am</h3>
+          <p>
+            I'm pursuing B.Tech in Computer Science and Engineering
+            at Symbiosis Institute of Technology, Nagpur.
+            My background includes a diploma in Electronics
+            and Telecommunication.
+          </p>
+        </article>
+
+        <article class="glass-card reveal">
+          <div class="emoji">🧭</div>
+          <h3>My Approach</h3>
+          <p>
+            I learn by building, experimenting and solving problems.
+            I enjoy converting classroom concepts into working
+            applications and prototypes.
+          </p>
+        </article>
+
+        <article class="glass-card reveal">
+          <div class="emoji">✨</div>
+          <h3>My Interests</h3>
+          <p>
+            Software engineering, artificial intelligence,
+            computer vision, blockchain, web development
+            and decentralized applications.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-heading reveal">
+        <span>02 / MY JOURNEY</span>
+        <h2>Every milestone<br><em>tells a story.</em></h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <span>🎓</span>
+          <div>
+            <small>2024 – 2028</small>
+            <h3>B.Tech in Computer Science & Engineering</h3>
+            <p>Symbiosis Institute of Technology, Nagpur</p>
+            <p>Currently pursuing undergraduate studies.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <span>🏅</span>
+          <div>
+            <small>Diploma</small>
+            <h3>Electronics & Telecommunication</h3>
+            <p>Anjuman Polytechnic, Nagpur</p>
+            <p>Reported aggregate: 91.47%.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <span>💼</span>
+          <div>
+            <small>Internship</small>
+            <h3>Associate Software Engineer Intern</h3>
+            <p>Qaswa Technologies, Nagpur</p>
+            <p>Software development experience, including Java-focused learning.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <span>03 / MY TOOLKIT</span>
+        <h2>Technology meets<br><em>imagination.</em></h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill reveal">
+          <span>🌐</span><h3>HTML & CSS</h3>
+          <p>Responsive layouts, UI design and animations.</p>
+        </article>
+        <article class="skill reveal">
+          <span>⚡</span><h3>JavaScript</h3>
+          <p>DOM, events, validation, Fetch API and storage.</p>
+        </article>
+        <article class="skill reveal">
+          <span>☕</span><h3>Java</h3>
+          <p>Core concepts and object-oriented programming.</p>
+        </article>
+        <article class="skill reveal">
+          <span>🐍</span><h3>Python</h3>
+          <p>Scripting and AI/ML foundations.</p>
+        </article>
+        <article class="skill reveal">
+          <span>🧩</span><h3>Compiler Design</h3>
+          <p>LEX, YACC, regular expressions and parsing.</p>
+        </article>
+        <article class="skill reveal">
+          <span>🔗</span><h3>Blockchain</h3>
+          <p>Decentralized systems and data integrity.</p>
+        </article>
+        <article class="skill reveal">
+          <span>🤖</span><h3>AI & Computer Vision</h3>
+          <p>YOLO concepts, object detection and Raspberry Pi.</p>
+        </article>
+        <article class="skill reveal">
+          <span>🗃️</span><h3>SQL & Data</h3>
+          <p>Database fundamentals, JSON and structured data.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <span>04 / PROJECTS</span>
+        <h2>Ideas brought<br><em>to life.</em></h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project reveal">
+          <div class="project-art nature-art">👁️</div>
+          <div class="project-body">
+            <span>AI • COMPUTER VISION</span>
+            <h3>RoboVortexVision</h3>
+            <p>
+              An assistive robotic vision concept designed to help
+              visually impaired users understand their surroundings.
+              It explores Raspberry Pi 4, camera input and YOLOv5
+              object detection, with vibration feedback that changes
+              according to object distance.
+            </p>
+            <div class="tags"><i>YOLOv5</i><i>Raspberry Pi</i><i>Camera</i></div>
+            <a href="https://github.com/HussainMHK47/JAVA_SCRIPT_PRO"
+               target="_blank" rel="noreferrer">Explore GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-art blockchain-art">🔗</div>
+          <div class="project-body">
+            <span>BLOCKCHAIN • DECENTRALIZATION</span>
+            <h3>Blockchain-Based Decentralized System</h3>
+            <p>
+              A decentralized-system project exploring linked records,
+              hashing, data integrity and tamper-evident information.
+              Add the exact application, consensus approach and
+              implementation details of your system here.
+            </p>
+            <div class="tags"><i>Blockchain</i><i>Hashing</i><i>Security concepts</i></div>
+            <a href="https://github.com/HussainMHK47/JAVA_SCRIPT_PRO"
+               target="_blank" rel="noreferrer">Explore GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-art ocean-art">🌊</div>
+          <div class="project-body">
+            <span>PYTHON • DATA • CHATBOT</span>
+            <h3>ARGO Ocean Chatbot</h3>
+            <p>
+              An ocean-data chatbot concept exploring scientific
+              ARGO data, NetCDF files, a Streamlit interface and
+              retrieval-augmented generation. Vector search can help
+              retrieve relevant information before answering queries.
+            </p>
+            <div class="tags"><i>Python</i><i>Streamlit</i><i>RAG</i></div>
+            <a href="https://github.com/HussainMHK47/JAVA_SCRIPT_PRO"
+               target="_blank" rel="noreferrer">Explore GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-art flower-art">🌸</div>
+          <div class="project-body">
+            <span>PWA • PRODUCTIVITY</span>
+            <h3>Cindi — Personal Scheduler</h3>
+            <p>
+              A game-inspired productivity application concept
+              designed around daily tasks, routines and progress.
+              It can use local storage, XP-style rewards and a
+              responsive interface to make planning engaging.
+            </p>
+            <div class="tags"><i>JavaScript</i><i>PWA</i><i>Local storage</i></div>
+            <a href="https://github.com/HussainMHK47/JAVA_SCRIPT_PRO"
+               target="_blank" rel="noreferrer">Explore GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-art rain-art">🌧️</div>
+          <div class="project-body">
+            <span>ARDUINO • IOT</span>
+            <h3>Smart Clothes Drying System</h3>
+            <p>
+              An Arduino-based automation concept using a rain sensor
+              and servo motor to respond to rainfall. It explores
+              sensor readings, threshold detection and automated
+              protection for drying clothes.
+            </p>
+            <div class="tags"><i>Arduino Uno</i><i>YL-83</i><i>Servo</i></div>
+            <a href="https://github.com/HussainMHK47/JAVA_SCRIPT_PRO"
+               target="_blank" rel="noreferrer">Explore GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-art web-art">💻</div>
+          <div class="project-body">
+            <span>JAVASCRIPT • WEB DEVELOPMENT</span>
+            <h3>Interactive JavaScript Projects</h3>
+            <p>
+              Practical work covering DOM manipulation, interactive
+              to-do lists, form validation, regular expressions,
+              arrays and objects, shopping-cart calculations,
+              browser storage, Fetch API and JSON tables.
+            </p>
+            <div class="tags"><i>DOM</i><i>Events</i><i>Fetch API</i></div>
+            <a href="https://github.com/HussainMHK47/JAVA_SCRIPT_PRO"
+               target="_blank" rel="noreferrer">Open JavaScript Repository ↗</a>
+          </div>
+        </article>
+      </div>
+      <p class="note">
+        Update project descriptions and links to match your exact
+        implementations before publishing.
+      </p>
+    </section>
+
+    <section class="section" id="achievements">
+      <div class="section-heading reveal">
+        <span>05 / RECOGNITION</span>
+        <h2>Effort deserves<br><em>to be celebrated.</em></h2>
+      </div>
+
+      <div class="three-grid">
+        <article class="glass-card reveal">
+          <div class="emoji">🏆</div>
+          <h3>Paper Presentation Winner</h3>
+          <p>Winner during diploma final year at a government polytechnic.</p>
+        </article>
+        <article class="glass-card reveal">
+          <div class="emoji">🥈</div>
+          <h3>Quiz Competition Runner-up</h3>
+          <p>Runner-up in a quiz competition at NIT Polytechnic.</p>
+        </article>
+        <article class="glass-card reveal">
+          <div class="emoji">🚀</div>
+          <h3>Project Presentation at COEP</h3>
+          <p>Project qualified and presented at COEP, Pune.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="certificates">
+      <div class="section-heading reveal">
+        <span>06 / CERTIFICATES & GALLERY</span>
+        <h2>Moments worth<br><em>remembering.</em></h2>
+      </div>
+      <div class="three-grid">
+        <article class="glass-card reveal">
+          <div class="emoji">📜</div>
+          <h3>Certificates</h3>
+       <p>
+  <strong>LinkedIn:</strong> 
+  <a href="https://www.linkedin.com/in/m-hussain-khan-6b00892b3" target="_blank" rel="noreferrer" class="clickable-link">
+    www.linkedin.com/in/m-hussain-khan-6b00892b3
+  </a>
+</p>
+        </article>
+        <article class="glass-card reveal">
+          <div class="emoji">🎤</div>
+          <h3>Presentations</h3>
+         <p>
+  <strong>LinkedIn:</strong> 
+  <a href="https://www.linkedin.com/in/m-hussain-khan-6b00892b3" target="_blank" rel="noreferrer" class="clickable-link">
+    www.linkedin.com/in/m-hussain-khan-6b00892b3
+  </a>
+</p>
+        </article>
+        <article class="glass-card reveal">
+          <div class="emoji">📸</div>
+          <h3>College Gallery</h3>
+         <p>
+  <strong>LinkedIn:</strong> 
+  <a href="https://www.linkedin.com/in/m-hussain-khan-6b00892b3" target="_blank" rel="noreferrer" class="clickable-link">
+    www.linkedin.com/in/m-hussain-khan-6b00892b3
+  </a>
+</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-box reveal">
+        <span>07 / LET'S CONNECT</span>
+        <h2>Let's build something<br><em>meaningful.</em></h2>
+        <p>Interested in projects, technology and opportunities to learn and collaborate.</p>
+        <a class="button primary"
+           href="https://github.com/HussainMHK47/JAVA_SCRIPT_PRO"
+           target="_blank" rel="noreferrer">Visit My GitHub ↗</a>
+        <a class="button secondary" href="mailto:your.email@example.com">Email Me ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#home">HUSSAIN<span>.</span></a>
+    <p>Created with curiosity, code and nature.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
